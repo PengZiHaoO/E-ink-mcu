@@ -1,0 +1,41 @@
+# ===== 构建输出 =====
+build/
+cmake-build-*/
+out/
+Debug/
+Release/
+
+# CMake 生成物
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+CTestTestfile.cmake
+CMakeUserPresets.json
+compile_commands.json
+
+# 编译中间文件与产物
+*.o
+*.d
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+*.su
+*.lst
+*.sym
+
+# 调试 / IDE
+.vscode/
+.idea/
+.clangd/
+.cache/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# STM32CubeMX 生成备份
+*.ioc.bak
+*.bak
